@@ -15,5 +15,6 @@ public class Main {
         final Scanner scanner = new Scanner(System.in);
         int numberOfElements = scanner.nextInt();
         scanner.close();
+        int[] array = new int[numberOfElements];
     }
 }
