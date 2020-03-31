@@ -15,12 +15,14 @@ public class Main {
         System.out.println("How many elements would you like in the array?: ");
         final Scanner scanner = new Scanner(System.in);
         int numberOfElements = scanner.nextInt();
-        scanner.close();
         int[] array = new int[numberOfElements];
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 100);
         }
         System.out.println("UNSORTED ARRAY");
         System.out.println(Arrays.toString(array));
+        System.out.println("Press 1 to sort this array using Bubble Sort");
+        int choice = scanner.nextInt();
+        scanner.close();
     }
 }
