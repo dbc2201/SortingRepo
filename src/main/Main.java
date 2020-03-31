@@ -16,5 +16,8 @@ public class Main {
         int numberOfElements = scanner.nextInt();
         scanner.close();
         int[] array = new int[numberOfElements];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) (Math.random() * 100);
+        }
     }
 }
