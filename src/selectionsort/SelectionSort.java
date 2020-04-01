@@ -8,4 +8,7 @@
 package selectionsort;
 
 public class SelectionSort {
+    public void sort(int[] array) {
+
+    }
 }
