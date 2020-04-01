@@ -31,6 +31,11 @@ public class Main {
                 bubbleSort.sort(array);
                 System.out.println("ARRAY SORTED BY BUBBLESORT");
                 System.out.println(Arrays.toString(array));
+                break;
+            case 2: /*SELECTION SORT*/
+                break;
+            default:
+                break;
         }
         scanner.close();
     }
