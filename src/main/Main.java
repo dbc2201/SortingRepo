@@ -8,6 +8,7 @@
 package main;
 
 import bubblesort.BubbleSort;
+import selectionsort.SelectionSort;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -29,10 +30,14 @@ public class Main {
             case 1: /*BUBBLE SORT*/
                 BubbleSort bubbleSort = new BubbleSort();
                 bubbleSort.sort(array);
-                System.out.println("ARRAY SORTED BY BUBBLESORT");
+                System.out.println("ARRAY SORTED BY BUBBLE SORT");
                 System.out.println(Arrays.toString(array));
                 break;
             case 2: /*SELECTION SORT*/
+                SelectionSort selectionSort = new SelectionSort();
+                selectionSort.sort(array);
+                System.out.println("ARRAY SORTED BY SELECTION SORT");
+                System.out.println(Arrays.toString(array));
                 break;
             default:
                 break;
