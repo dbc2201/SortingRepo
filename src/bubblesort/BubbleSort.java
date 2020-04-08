@@ -36,7 +36,7 @@ public class BubbleSort {
     }
 
     private void sortAscending(int[] array, int j) {
-        System.out.println("DESCENDING ORDER SORT");
+        System.out.println("ASCENDING ORDER SORT");
         if (array[j] > array[j + 1]) {
             int temp = array[j];
             array[j] = array[j + 1];
