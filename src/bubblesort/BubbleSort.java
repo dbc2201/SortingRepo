@@ -14,10 +14,11 @@ public class BubbleSort {
      *
      * @param array the array to be sorted
      */
-    public void sort(int[] array) {
+    public void sort(int[] array, int choiceForSorting) {
+        System.out.println(choiceForSorting == 1 ? "DESCENDING ORDER SORT" : "ASCENDING ORDER SORT");
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < (array.length - 1); j++) {
-                if ((Math.random() > 0.5)) {
+                if (choiceForSorting == 1) {
                     sortDescending(array, j);
                 } else {
                     sortAscending(array, j);
@@ -27,7 +28,6 @@ public class BubbleSort {
     }
 
     private void sortDescending(int[] array, int j) {
-        System.out.println("DESCENDING ORDER SORT");
         if (array[j] < array[j + 1]) {
             int temp = array[j];
             array[j] = array[j + 1];
@@ -36,7 +36,6 @@ public class BubbleSort {
     }
 
     private void sortAscending(int[] array, int j) {
-        System.out.println("ASCENDING ORDER SORT");
         if (array[j] > array[j + 1]) {
             int temp = array[j];
             array[j] = array[j + 1];
