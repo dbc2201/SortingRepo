@@ -17,7 +17,11 @@ public class BubbleSort {
     public void sort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < (array.length - 1); j++) {
-                sortDescending(array, j);
+                if ((Math.random() > 0.5)) {
+                    sortDescending(array, j);
+                } else {
+                    sortAscending(array, j);
+                }
             }
         }
     }
