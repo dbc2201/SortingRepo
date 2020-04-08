@@ -29,4 +29,12 @@ public class BubbleSort {
             array[j + 1] = temp;
         }
     }
+
+    private void sortAscending(int[] array, int j) {
+        if (array[j] > array[j + 1]) {
+            int temp = array[j];
+            array[j] = array[j + 1];
+            array[j + 1] = temp;
+        }
+    }
 }
