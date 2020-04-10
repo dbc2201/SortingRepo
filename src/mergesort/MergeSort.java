@@ -11,4 +11,8 @@ public class MergeSort {
     public static void sort() {
 
     }
+
+    private static void merge(int[] outputArray, int[] leftSubArray, int[] rightSubArray) {
+
+    }
 }
