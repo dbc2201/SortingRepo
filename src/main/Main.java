@@ -50,6 +50,7 @@ public class Main {
                 InsertionSort.sort(array);
                 System.out.println("ARRAY SORTED BY INSERTION SORT");
                 System.out.println(Arrays.toString(array));
+                break;
             case 4: /*QUICK SORT*/
                 QuickSort.sort(array, 0, array.length - 1);
                 System.out.println("ARRAY SORTED BY INSERTION SORT");
@@ -59,6 +60,7 @@ public class Main {
                 MergeSort.sort(array);
                 System.out.println("ARRAY SORTED BY MERGE SORT");
                 System.out.println(Arrays.toString(array));
+                break;
             default:
                 break;
         }
