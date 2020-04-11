@@ -6,10 +6,7 @@
  */
 
 package quicksort;
-/*
- * A-case & B-case: O(n log n) : ~85%-90%
- * W-case: O(n ^ 2)
- * */
+
 public class QuickSort {
     public static void sort(int[] array, int leftIndex, int rightIndex) {
         if (leftIndex < rightIndex) {

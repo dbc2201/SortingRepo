@@ -9,6 +9,7 @@ package main;
 
 import bubblesort.BubbleSort;
 import insertionsort.InsertionSort;
+import mergesort.MergeSort;
 import quicksort.QuickSort;
 import selectionsort.SelectionSort;
 
@@ -22,7 +23,7 @@ public class Main {
         int numberOfElements = scanner.nextInt();
         int[] array = new int[numberOfElements];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 100);
+            array[i] = (int) (Math.random() * 50);
         }
         System.out.println("UNSORTED ARRAY");
         System.out.println(Arrays.toString(array));
@@ -30,6 +31,7 @@ public class Main {
         System.out.println("Press 2 to sort this array using Selection Sort");
         System.out.println("Press 3 to sort this array using Insertion Sort");
         System.out.println("Press 4 to sort this array using Quick Sort");
+        System.out.println("Press 5 to sort this array using Merge Sort");
         int choice = scanner.nextInt();
         switch (choice) {
             case 1: /*BUBBLE SORT*/
@@ -51,6 +53,11 @@ public class Main {
             case 4: /*QUICK SORT*/
                 QuickSort.sort(array, 0, array.length - 1);
                 System.out.println("ARRAY SORTED BY INSERTION SORT");
+                System.out.println(Arrays.toString(array));
+                break;
+            case 5: /*MERGE SORT*/
+                MergeSort.sort(array);
+                System.out.println("ARRAY SORTED BY MERGE SORT");
                 System.out.println(Arrays.toString(array));
             default:
                 break;
