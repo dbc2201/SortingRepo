@@ -23,7 +23,7 @@ public class Main {
         int numberOfElements = scanner.nextInt();
         int[] array = new int[numberOfElements];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 50);
+            array[i] = (int) (Math.random() * 100);
         }
         System.out.println("UNSORTED ARRAY");
         System.out.println(Arrays.toString(array));
