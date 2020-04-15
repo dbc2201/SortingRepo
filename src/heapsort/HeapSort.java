@@ -8,4 +8,9 @@
 package heapsort;
 
 public class HeapSort {
+
+    public static void sort(int[] array) {
+
+    }
+
 }
