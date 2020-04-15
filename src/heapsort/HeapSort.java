@@ -43,6 +43,13 @@ public class HeapSort {
 
     }
 
+    /**
+     * This method swaps two elements in the `array` based on their indices.
+     *
+     * @param array The integer array that contains the elements.
+     * @param i     The index of the first element to be swapped.
+     * @param j     The index of the second element to be swapped.
+     */
     private static void swap(int[] array, int i, int j) {
 
     }
