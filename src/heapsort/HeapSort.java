@@ -32,4 +32,8 @@ public class HeapSort {
 
     }
 
+    private static void shrinkHeap(int[] array) {
+
+    }
+
 }
