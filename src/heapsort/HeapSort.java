@@ -21,6 +21,13 @@ public class HeapSort {
 
     }
 
+    /**
+     * This method will convert the integer array into a heap.
+     * pre-condition: The integer array must contain at least one item.
+     * post-condition: All the elements in the array will be converted in heap order.
+     *
+     * @param array The integer array to be converted to a heap.
+     */
     private static void buildHeap(int[] array) {
 
     }
