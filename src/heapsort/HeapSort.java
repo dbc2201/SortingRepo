@@ -32,6 +32,13 @@ public class HeapSort {
 
     }
 
+    /**
+     * This method will convert a heap into an integer array of sorted elements.
+     * pre-condition: All the elements in the array must be in the heap order.
+     * post-condition: The integer array will be sorted.
+     *
+     * @param array The integer array to be sorted.
+     */
     private static void shrinkHeap(int[] array) {
 
     }
