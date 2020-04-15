@@ -21,4 +21,8 @@ public class HeapSort {
 
     }
 
+    private static void buildHeap(int[] array) {
+
+    }
+
 }
